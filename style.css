@@ -1,0 +1,74 @@
+header{
+    width: 1300px;
+    margin: 0 auto;
+    background-image: url(./images/Rectangle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+}
+.nav-logo{
+    color: white;
+    flex: 6;
+    text-align: center;
+}
+
+.logo-style{
+    font-size: 30px;
+}
+.style-p{
+    font-size: 10px;
+    position: relative;
+    bottom: 30px;
+     color:  #FFF;;
+    
+    
+}
+.nav__list{
+    flex:6;
+    
+}
+.list-item{
+    color: #FFF;
+    position: relative;
+    top: 25px;
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    
+}
+.header__hero{
+    width: 1300px;
+    height: 600px;
+    margin: 0 auto;
+}
+.hero-text{
+    color: var(--accent, #D4C17F);
+    font-size: 48px;
+    position: relative;
+    top: 120px;
+    text-align: center;
+
+}
+.mouse{
+    position: relative;
+    top: 150px;
+    left: 630px;
+}
+
+.hero__list-item{
+    color: #FFF;
+    list-style: none;
+    display: flex;
+    gap: 150px;
+    position: relative;
+    top: 280px;
+    left: 350px;
+}
+.hero-item{
+    display: flex;
+    gap: 15px;
+}
